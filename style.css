@@ -1,0 +1,686 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+#nav-bar {
+    background-color: #04AA6D;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#nav-logo>img, #logo-footer>img {
+    height: 50px;
+    width: 60px;
+}
+
+
+#nav-logo h1 {
+    color: white;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+
+#contact>a, #email>a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+
+#nav-bar>div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#search>input {
+    height: 26px;
+    width: 200px;
+    margin: 10px 0px 10px 0px;
+}
+
+#search>button {
+    height: 30px;
+    width: 30px;
+    margin: 10px 0px 10px 0px;
+    background-color: rgb(255, 123, 0);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#banner-text>button {
+    background-color: #04AA6D;
+    color: white;
+    border: none;
+    padding: 5px;
+    text-transform: uppercase;
+    height: 30px;
+    width: 120px;
+    cursor: pointer;
+
+}
+
+#nav-bar2 {
+    background-color: rgb(45, 44, 44);
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#nav-bar2>li {
+    list-style: none;
+}
+
+#banner {
+    background-image: url('images/airplan-background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+
+
+#banner-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    width: 40%;
+
+}
+
+#banner-text>h1 {
+    color: white;
+    font-size: 2.3em;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+#banner-text>p {
+    display: block;
+    margin-block-start: 1em;
+    color: white;
+    margin-bottom: 10px;
+    font-size: 0.8em;
+}
+
+#banner-form {
+    height: 250px;
+    width: 550px;
+    background-color: rgba(4, 170, 109, 0.6);
+    color: white;
+    padding: 20px;
+}
+
+
+form>input {
+    height: 23px;
+    width: 550px;
+    margin: 5px 0px;
+}
+
+
+#banner-form>form>button {
+    background-color: rgb(15, 15, 15, 0.9);
+    color: white;
+    border: none;
+    padding: 5px;
+    text-transform: uppercase;
+    height: 30px;
+    width: 150px;
+    margin-top: 5px;
+    cursor: pointer;
+
+}
+
+#banner-form>p {
+    font-weight: 600;
+    font-size: 0.7em;
+}
+
+#greetings {
+    padding: 50px 150px;
+
+}
+
+#services {
+    padding: 20px 150px 50px 150px;
+
+}
+
+#greetings>h1, #services>h1, #newsAndEventsContainer>h1, #reachOut-form>h1 {
+    text-align: center;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+#greetings>.hr-line, #services>.hr-line, #newsAndEventsContainer>.hr-line, #testimonial>.hr-line, #reachOut-form>.hr-line {
+    height: 5px;
+    width: 30px;
+    background-color: rgb(4, 170, 109);
+    margin-left: 49%;
+    border-radius: 25px;
+    margin-bottom: 15px;
+}
+
+#newsAndEventsContainer>.hr-line {
+    color: white;
+}
+
+
+
+#greetings p, #services p {
+    font-weight: bold;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+#services-container {
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container {
+    height: 150px;
+    width: 150px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-icon {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(4, 170, 109);
+    border-radius: 50%;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-icon>i {
+    font-size: 2em;
+}
+
+.container>span {
+    font-size: 0.8em;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.service-icon>img {
+    height: 4em;
+}
+
+#read-more, #btn-reachOut-form {
+    background-color: rgb(45, 44, 44);
+    color: white;
+    padding: 10px;
+    text-transform: uppercase;
+    height: 30px;
+    width: 150px;
+    cursor: pointer;
+    align-items: center;
+    margin-left: 46%;
+}
+
+#about {
+    height: 300px;
+    padding-left: 150px;
+    background-color: rgb(243, 241, 241);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+#about-text {
+    width: 50%;
+}
+
+
+#about-img {
+    background-image: url('images/aircraft-runway2avif.avif');
+    background-position: center;
+    height: 300px;
+    width: 50%;
+    background-size: cover;
+
+
+}
+
+#about-text>div {
+    height: 5px;
+    width: 30px;
+    background-color: rgb(4, 170, 109);
+    border-radius: 25px;
+    margin-bottom: 15px;
+}
+
+#about-text>h1 {
+    text-align: left;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+#about-text>p {
+    font-size: 0.8em;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+#btn-abt {
+    background-color: rgb(45, 44, 44);
+    color: white;
+    border: none;
+    padding: 5px;
+    text-transform: uppercase;
+    height: 30px;
+    width: 120px;
+    cursor: pointer;
+}
+
+#newsAndEventsContainer {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+#container-news {
+    height: 600px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 50px;
+
+
+}
+
+.new-cnt {
+    height: 350px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(243, 241, 241);
+    margin-right: 20px;
+
+}
+
+.bg-img-news {
+
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    width: 250px;
+}
+
+#news1 {
+    background-image: url('images/lib-air-cargo.jpg');
+}
+
+#news2 {
+    background-image: url('images/web-dev.avif');
+}
+
+#news3 {
+    background-image: url('images/trucks.avif');
+}
+
+.date-container {
+    position: relative;
+    bottom: 23px;
+
+
+    height: 40px;
+    width: 40px;
+    background-color: rgb(4, 170, 109);
+    border-radius: 50%;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+
+
+}
+
+.news-text>h3 {
+    text-align: center;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+
+
+}
+
+.news-text>p {
+    font-size: 0.8em;
+    text-align: center;
+    padding-bottom: 10px;
+
+}
+
+#read-more-news {
+    background-color: rgb(45, 44, 44);
+    color: white;
+    padding: 10px;
+    text-transform: uppercase;
+    height: 25px;
+    width: 90px;
+    cursor: pointer;
+    align-items: center;
+    margin-left: 46%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#testimonial {
+    height: 445px;
+    background: linear-gradient(rgba(4, 170, 109, 0.9), rgba(4, 170, 109, 0.9)), url(images/airplane-runway.avif);
+    background-size: cover;
+    background-position: center;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+#testimonial>h1 {
+    padding-top: 50px;
+
+    color: white;
+    text-align: center;
+    font-size: 2em;
+}
+
+#review-post {
+    margin-top: 40px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 100px;
+}
+
+#review-post>button {
+    height: 40px;
+    width: 40px;
+    background-color: rgb(45, 44, 44);
+}
+
+
+
+
+#review-post>button:hover {
+    background-color: white;
+
+}
+
+#review-post>button:hover>a {
+    color: rgb(45, 44, 44);
+
+}
+
+
+.post-container {
+    height: 150px;
+    width: 500px;
+    background-color: white;
+}
+
+.post-img>img {
+    padding: 10px;
+    float: left;
+
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    margin-right: 5px;
+}
+
+.post-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.text-post {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.text-post>p {
+    font-size: 0.8em;
+    text-align: left;
+    padding-bottom: 10px;
+
+}
+
+.post-img>h3 {
+    color: green;
+    font-weight: bold;
+}
+
+#posts {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.post-container {
+    margin-right: 10px;
+}
+
+
+
+#reachOut-form>form {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+#reachOut-form>form>input, #reachOut-form>form>textarea {
+    border: none;
+    border-bottom: 2px solid rgb(4, 170, 109);
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+#reachOut-form>form>textarea {
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+#send-btn {
+    height: 30px;
+    width: 100px;
+    padding: 5px;
+    border-radius: 25px;
+    background-color: #FF5F15;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.nav-footer {
+    background-color: rgb(45, 44, 44);
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.footer-items>i {
+    font-size: 0.7em;
+    color: white;
+    border: 1px solid white;
+    padding: 5px;
+}
+
+.footer-items>a {
+    font-size: 0.8em;
+    color: white;
+    padding: 5px;
+
+}
+
+#bottom-nav {
+    margin-top: 0px;
+}
+
+#bottom-nav>p {
+    font-size: 0.7em;
+    color: white;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+#middle-footer {
+    background-color: rgb(4, 170, 109);
+    padding: 20px 150px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.info-sec2>ul {
+    list-style: none;
+
+}
+
+#logo-footer {
+    display: flex;
+    flex-direction: row;
+
+}
+
+#section-1 {
+    height: 200px;
+    width: 50%;
+}
+
+#verticle-line {
+    height: 200px;
+    width: 1px;
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#section-2 {
+    height: 200px;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo-footer>img {
+    margin-right: 5px;
+}
+
+#logo-footer>h1 {
+    color: white;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+
+#logo-footer>h1:hover {
+    color: rgb(45, 44, 44);
+}
+
+#nav-logo>h1:hover {
+    color: rgb(45, 44, 44);
+}
+
+#logo-footer {
+    margin-bottom: 5px;
+}
+
+#section-1>p {
+    font-size: 1em;
+    color: white;
+    margin-bottom: 10px;
+}
+
+#social-media {
+    color: rgba(4, 170, 109);
+    margin-right: 5px;
+}
+
+#social-media>i {
+    font-size: 0.7em;
+    text-align: center;
+    margin-right: 5px;
+    background-color: white;
+    padding: 5px;
+
+    border-radius: 50%;
+
+}
+
+.info-sec2>h3 {
+    color: white;
+    font-size: 1em;
+    margin-bottom: 10px;
+
+}
